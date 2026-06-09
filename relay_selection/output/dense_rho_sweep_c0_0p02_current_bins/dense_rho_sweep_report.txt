@@ -1,0 +1,27 @@
+Dense rho sweep report
+states: 2000
+seed: 7
+rho grid: 0.001 to 0.999, points=999
+optimal rho minimizes average PEP = (PEP_near + PEP_far) / 2
+
+relay_alpha_2
+rho percentiles p10/p25/p40/p50/p60/p75/p90: 0.022000 0.044750 0.081000 0.123000 0.173000 0.268000 0.380000
+rho min/max/mean/std: 0.006000 0.473000 0.162318 0.131601
+share rho <= 0.005/0.010/0.020/0.050/0.100/0.200: 0.00% 0.95% 9.00% 27.95% 45.35% 64.55%
+gain mean/median/p40/p60: 1.019292 0.634709 0.490392 0.836488
+min avg PEP mean/median: 0.13361375 0.08599536
+
+relay_alpha_3
+rho percentiles p10/p25/p40/p50/p60/p75/p90: 0.009000 0.020000 0.038600 0.060000 0.086000 0.156000 0.299000
+rho min/max/mean/std: 0.002000 0.439000 0.104515 0.109418
+share rho <= 0.005/0.010/0.020/0.050/0.100/0.200: 3.70% 10.80% 25.60% 46.40% 64.20% 81.15%
+gain mean/median/p40/p60: 6.974978 3.274812 2.255064 4.747432
+min avg PEP mean/median: 0.11692798 0.06835259
+
+lambda_1_no_relay_selection
+rho percentiles p10/p25/p40/p50/p60/p75/p90: 0.018900 0.035750 0.067000 0.099000 0.146400 0.234250 0.346100
+rho min/max/mean/std: 0.010000 0.413000 0.142121 0.120717
+share rho <= 0.005/0.010/0.020/0.050/0.100/0.200: 0.00% 0.00% 12.40% 33.85% 50.35% 69.60%
+gain mean/median/p40/p60: 1.000000 1.000000 1.000000 1.000000
+min avg PEP mean/median: 0.12645290 0.07760086
+
